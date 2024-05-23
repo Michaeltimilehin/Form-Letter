@@ -42,3 +42,6 @@ button {
   background: #e9ecef;
   border-radius: 4px;
 }
+#story{
+  display: none;
+}
