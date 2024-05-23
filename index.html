@@ -16,28 +16,26 @@
     <h1>Form Letter Generator</h1>
     <form id="formOne">
       <label for="yourname">Your name</label>
-      <input id="yourname" class="form-control" type="text">
+      <input id="yourname" class="form-control" type="text" required>
 
       <label for="recipientname">Recipient name</label>
-      <input id="recipientname" class="form-control" type="text">
-
-      <label for="purpose">Purpose</label>
-      <input id="purpose" class="form-control" type="text">
+      <input id="recipientname" class="form-control" type="text" required>
 
       <label for="schoolname">Schoolname</label>
-      <input id="schoolname" class="form-control" type="text">
+      <input id="schoolname" class="form-control" type="text" required>
 
       <label for="phonenumber">Phone Number</label>
-      <input id="phonenumber" class="form-control" type="text">
+      <input id="phonenumber" class="form-control" type="text" required>
 
-      
+      <label for="emailaddress">Email Address</label>
+      <input id="emailaddress" class="form-control" type="text" required>
 
       <button type="submit" onclick="generateLetter()">Generate Letter</button>
     </form>
 
     <div class="result"  id="story">
       <h1></h1>
-      <p>Dear <span class="recipientname"></span>,</p>
+      <p>Dear Admissions Committee <span class="recipientname"></span>,</p>
 
       <p>I am writing to express my interest in applying for admission to <span class="schoolname"></span> for the upcoming academic year/semester. After thoroughly researching various educational institutions, I am confident that <span class="schoolname"></span> offers the academic rigor, supportive community, and opportunities for personal growth that align perfectly with my educational and career aspirations..</p>
 
@@ -47,7 +45,7 @@
 
       <p>I am especially excited about the opportunity to contribute to different initiative at the school.I am impressed by <span class="schoolname"></span> commitment to specific values and missions of the school, and I am eager to become part of such a vibrant and dynamic community. I am confident that <span class="schoolname"></span>  will provide me with the ideal environment to achieve my academic and personal goals, and I am enthusiastic about the possibility of contributing to the school's legacy of excellence. </p>
 
-      <p>Thank you for considering my application. I look forward to the opportunity to further discuss how my background, skills, and aspirations align with the values and goals of <span class="schoolname"></span> Please feel free to contact me at <span class="phonenumber"></span> or  if you require any additional information. </p>
+      <p>Thank you for considering my application. I look forward to the opportunity to further discuss how my background, skills, and aspirations align with the values and goals of <span class="schoolname"></span> Please feel free to contact me at <span class="phonenumber"></span> or <span class="emailaddress"></span>  if you require any additional information. </p>
 
 
 
