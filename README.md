@@ -24,7 +24,7 @@ _{This is a website that can be used to generate a letter by just filling some l
 
 ## Known Bugs
 
-* _No known bugs_
+* _No bugs_
 
 ## License
 
